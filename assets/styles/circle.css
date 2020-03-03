@@ -1,0 +1,44 @@
+.circle{
+	position: absolute;
+	text-align: center;
+	width: 231px;
+	height: 231px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	border-radius: 50%;
+	left: 190px;
+	top: 640px;
+}
+
+.circle__sub{
+	margin-top: 45px;
+	font-weight: 100;
+	color: var(--blue);
+	font-size: 14px;
+	margin-bottom: 5px;	
+}
+
+.circle__mark{
+	font-weight: bold;
+	color: var(--blue);
+	font-size: 34px;
+	margin-bottom: 10px; 
+}
+
+.circle__teacher{
+	font-weight: 100;
+	color: var(--blue);
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+
+.circle__solvery{
+	color: var(--blue);
+	font-size: 14px;
+	margin-bottom: 8px; 
+}
+
+.circle__review{
+	font-size: 10px;
+	color: var(--blue);
+}

@@ -1,0 +1,31 @@
+.hero{
+	height: 100vh;
+}
+
+.hero__sub, .hero__title, h3{
+	color: white;
+}
+
+.hero__title{
+	font-size: 40px;
+}
+
+.hero__sub{
+	margin: 15px 0;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.hero__content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content{
+	margin-top: 60px;
+	width: 50%;
+}
+
+h3{
+	font-size: 18px;
+}
