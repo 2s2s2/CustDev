@@ -1,0 +1,15 @@
+.move{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+
+.move__blocks{
+	display: flex;
+	width: 50%;
+}
+
+.move__title{
+	width: 50%
+}

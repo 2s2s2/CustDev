@@ -10,13 +10,16 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/circle.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/move.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<section class="hero">
+		<div class="container">
 			<header class="header">
 				<div class="header__location">
 					<a href="" class="header__link -loc -blue">Санкт-Петербург</a>
+					<div class="triangle"></div>
 					<a href="" class="header__link -loc">Москва</a>
 					<a href="" class="header__link -loc">Мюнхен</a>
 				</div>
@@ -28,11 +31,16 @@
 						<a href="" class="header__link">Стоимость</a>
 						<a href="" class="header__link">О преподавателе</a>
 					</div>
-					<button class="button">Запись на курс</button>
+
+					<button class="button -class">Запись на курс</button>
+
+					<div class="burger">
+						<i class="one"></i>
+						<i class="two -s"></i>
+						<i class="three"></i>
+					</div>
 				</div>
 			</header>
-			
-		<div class="container">
 			<div class="hero__content">
 				<div class="left"></div>
 				<div class="content">
@@ -50,6 +58,34 @@
 				<a class="circle__review">Читать отзыв →</a>
 			</div>
 		</div>
+	</section>
+
+	<section class="move">
+		<div class="move__title">
+			<h2 class="move__info"><b>Если вы не делаете Customer Development - вы не управляете движением к product-market fit</b></h2>
+		</div>
+
+		<div class="move__blocks">
+			<div class="move__block">
+				<h2 class="block__title">94%</h2>
+				<h4 class="block__sub">стартапов умирают в течение 3 лет, и главная причина этого — отсутствие product-market fit</h4>
+			</div>
+
+			<div class="move__block">
+				<h2 class="block__title">менее 50%</h2>
+				<h4 class="block__sub">тестируемых Amazon функций реально запускаются после проверки гипотез</h4>
+			</div>
+
+			<div class="move__block">
+				<h2 class="block__title">только 50%</h2>
+				<h4 class="block__sub">компаний по результатам исследования SaaS проводят многовариантные A / B тестирования</h4>
+			</div>
+
+			<div class="move__block">
+				<h2 class="block__title">от 40% до 90%</h2>
+				<h4 class="block__sub">новых продуктов не получают значительного признания на рынке, так как строятся на основе творчества, интуции и интеллекта</h4>
+			</div>
+		</div>	
 	</section>
 </body>
 </html>

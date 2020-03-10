@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 20px;
+	height: 100px;
 }
 
 .header__link{
@@ -15,6 +15,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 }
 
 .header__location{
@@ -25,6 +26,88 @@
 	color: var(--blue)
 }
 
-@media screen (max-width: 767px){
-	
+.triangle{
+	display: none;
+}
+
+.header__location{
+	margin-right: 200px;
+}
+
+@media screen and (max-width: 767px){
+	i{
+		height: 2px;
+		width: 20px;
+		background-color: white;
+		position: absolute;
+		transition: transform .6s;
+	}
+
+	.header__location {
+		display: none;
+	}
+
+	.one{
+		top: 10px;
+	}
+
+	.two{
+		top: 20px;
+		width: 15px;
+	}
+
+	.three{
+		top: 30px;
+	}
+
+	.burger{
+		position: relative;
+		width: 30px;
+		height: 30px;
+
+	}
+
+	.burger:hover .two{
+		display: none;
+	}
+
+	.burger:hover .one{
+		transform: rotate(45deg);
+		top: 20px;		
+	}
+
+	.burger:hover .three{
+		transform: rotate(-45deg);
+		top: 20px;
+	}
+
+	.header__link{
+		display: none;
+	}
+
+	.header__link.-loc.-blue{
+		display: inline-block;
+		color: white;
+	}
+		
+	.triagle{
+		position: absolute;
+		top: 50px;
+		left: 265px;
+		border: 4px solid transparent; 
+		border-top: 4px solid white;
+		width: 2px;
+		height: 2px;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 435px){
+	.header__link.-loc.-blue, .triagle{
+		display: none;
+	}
+
+	.header__links{
+		display: none;
+	}
 }

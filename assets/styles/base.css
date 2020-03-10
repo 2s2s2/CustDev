@@ -19,5 +19,13 @@ a {
 body{
 	background-image: url("../img/image.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100%;	
+}
+
+
+@media screen and (max-width: 435px){
+	body{
+		background-size: 600px;
+		background-position: -173px 0; 
+	}
 }
