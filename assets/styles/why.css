@@ -1,0 +1,72 @@
+.why{
+	position: relative;
+	margin-top: 0px;
+	height: 100vh;
+	background-image: url(./assets/img/Rectangle.png); 
+}
+
+.why__circle{
+	position: absolute;
+	width: 231px;
+	height: 231px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	filter: blur(20px);
+	top: -200px;
+	right: 10px;
+}
+
+.why__title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.why__blocks{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 100px;	
+}
+
+.why__block__title{
+	color: var(--blue);
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.why__block{
+	width: 20%;
+}
+
+.why__block__sub{
+	font-size: 14px;	
+}
+
+@media screen and (max-width: 850px){
+	.why__title{
+		margin-top: 600px;
+		font-size: 30px;
+	}
+
+	.why__circle{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 435px){
+	.why__title{
+		width: calc(100% - 30px);
+	}
+
+	.why__blocks{
+		display: block;
+		margin: 40px 155px;
+	}
+
+	.why__block{
+		margin-top: 20px;
+		min-width: 100%;
+	}
+}

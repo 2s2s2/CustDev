@@ -10,13 +10,18 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/circle.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/move.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/why.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/what.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<section class="hero">
+		<div class="container">
 			<header class="header">
 				<div class="header__location">
 					<a href="" class="header__link -loc -blue">Санкт-Петербург</a>
+					<div class="triangle"></div>
 					<a href="" class="header__link -loc">Москва</a>
 					<a href="" class="header__link -loc">Мюнхен</a>
 				</div>
@@ -28,11 +33,16 @@
 						<a href="" class="header__link">Стоимость</a>
 						<a href="" class="header__link">О преподавателе</a>
 					</div>
-					<button class="button">Запись на курс</button>
+
+					<button class="button -class">Запись на курс</button>
+
+					<div class="burger">
+						<i class="one"></i>
+						<i class="two -s"></i>
+						<i class="three"></i>
+					</div>
 				</div>
 			</header>
-			
-		<div class="container">
 			<div class="hero__content">
 				<div class="left"></div>
 				<div class="content">
@@ -50,6 +60,86 @@
 				<a class="circle__review">Читать отзыв →</a>
 			</div>
 		</div>
+	</section>
+
+	<section class="move">
+		<div class="move__title">
+			<h2 class="move__info"><b>Если вы не делаете Customer Development - вы не управляете движением к product-market fit</b></h2>
+		</div>
+		<div class="move__container">
+			<div class="move__block">
+				<h2 class="block__title">94%</h2>
+				<h4 class="block__sub">стартапов умирают в течение 3 лет, и главная причина этого — отсутствие product-market fit</h4>
+			</div>
+
+			<div class="move__block">
+				<h2 class="block__title">менее 50%</h2>
+				<h4 class="block__sub">тестируемых Amazon функций реально запускаются после проверки гипотез</h4>
+			</div>
+
+			<div class="move__block">
+				<h2 class="block__title">только 50%</h2>
+				<h4 class="block__sub">компаний по результатам исследования SaaS проводят многовариантные A / B тестирования</h4>
+			</div>
+
+			<div class="move__block">
+				<h2 class="block__title">от 40% до 90%</h2>
+				<h4 class="block__sub">новых продуктов не получают значительного признания на рынке, так как строятся на основе творчества, интуции и интеллекта</h4>
+			</div>	
+		</div>	
+	</section>
+
+	<section class="why">
+		<h2 class="why__title">Кому и зачем знать Customer Development</h2>
+		<div class="why__circle"></div>
+			<div class="why__blocks">
+				<div class="why__block">
+					<h3 class="why__block__title">Продуктовому дизайнеру</h3>
+					<h4 class="why__block__sub">лучше узнать потребность клиента и научиться быстро проверять прототипы и макеты на пользователях чтобы исправлять ошибки и делать интерфейсы кратно качественнее</h4>
+				</div>
+
+				<div class="why__block">
+					<h3 class="why__block__title">Продакт-менеджерам</h3>
+					<h4 class="why__block__sub">идеально знать мотивацию своих пользователей и принимать продуктовые решения быстрее и значительно качественнее</h4>
+				</div>
+
+				<div class="why__block">
+					<h3 class="why__block__title">Основателям стартапов</h3>
+					<h4 class="why__block__sub">запустить процесс проверки гипотез в котором вы быстрее и ЗНАЧИТЕЛЬНО дешевле найдёте product-market fit</h4>
+				</div>
+			</div>
+	</section>
+
+	<section class="what">
+		<h2 class="what__title">Что будет на курсе</h2>
+		<div class="what__left">
+			<div class="what__block">
+					<div class="what__block__title">7 лекций</div>
+					<div class="what__block__sub">насыщенных практикой</div>
+				</div>
+
+				<div class="what__block">
+					<div class="what__block__title">2 гипотезы</div>
+					<div class="what__block__sub">минимум, которые проверишь на курсе</div>
+				</div>
+
+				<div class="what__block">
+					<div class="what__block__title">3 методички</div>
+					<div class="what__block__sub">с пошаговым описанием действий  как провести классный CustDev и как проверить любую гипотезу</div>
+				</div>
+
+				<div class="what__block">
+					<div class="what__block__title">20 интервью</div>
+					<div class="what__block__sub">с пользователями твоего продукта</div>
+				</div>
+		</div>
+
+		<div class="what__right">
+			<div class="what__block__title">Начнешь, наконец,  делать custdev</div>
+			<div class="what__block__sub">про который все давно  говорят, но мало кто делает</div>
+		</div>
+
+		<div class="what__circle"></div>
 	</section>
 </body>
 </html>
