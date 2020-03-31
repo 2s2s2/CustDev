@@ -48,6 +48,10 @@
 	padding: 0 30px;
 }
 
+.move__info{
+	font-size: 28px;
+}
+
 @media screen and (max-width: 850px){
 	.move{
 		flex-direction: column;
@@ -65,7 +69,7 @@
 	}
 
 	.move__info{
-		font-size: 30px;
+		font-size: 22px;
 	}
 
 	.move__container{
@@ -91,5 +95,9 @@
 	.move__block{
 		width: calc(100% - 10px);
 		margin-right: 0;
+	}
+
+	.move__info{
+		font-size: 20px;
 	}
 }

@@ -5,3 +5,17 @@
 	opacity: 0.1;	
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 }
+
+.what__left{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+}
+
+.what__block{
+	background-color: white;
+	width: 200px
+	height: 200px;
+}

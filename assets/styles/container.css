@@ -3,7 +3,7 @@
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 850px){
 	.container{
 		width: calc(100% - 15px);
 		margin: 0 auto;	
@@ -15,4 +15,10 @@
 		width: calc(100% - 15px);
 		margin: 0 auto;	
 	}	
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 100%;
+	}
 }
