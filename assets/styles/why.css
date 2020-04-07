@@ -2,7 +2,17 @@
 	position: relative;
 	margin-top: 0px;
 	height: 100vh;
-	background-image: url(./assets/img/Rectangle.png); 
+	background-image: url(../img/Rectangle.png); 
+	background-position: 0px -100px;
+	background-repeat: no-repeat;
+	background-size: 100%;	
+}
+
+@media screen and (max-width: 435px){
+	.why{
+		background-size: 3000px;
+		background-position: -100px 100px; 
+	}
 }
 
 .why__circle{
@@ -27,7 +37,8 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 100px;	
+	margin-top: 100px;
+	height: 100px;	
 }
 
 .why__block__title{
