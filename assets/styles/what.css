@@ -92,20 +92,70 @@
 
 @media screen and (max-width: 850px){
 	.what{
-		flex-direction: column;
+		height: 800px;
+	}
+
+	.what__container{
+		width: calc(100% - 10px);
+		justify-content: space-between;
+	}	
+
+	.what__right{
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+	}
+
+	.what__left{
+		width: 100%;
 	}
 
 	.what__block{
-		width: 
+		width: 50%;
+	}
+
+	.what__look{
+		position: absolute;
+		bottom: 90px;
+		left: -90px;
+		font-size: 20px;
+	}
+
+	.what__circle{
+		top: 550px;
+		right: 10px;
+	}
+
+	.what__circle__two{
+		top: 572px;
+		right: 27px;
 	}
 }
 
 @media screen and (max-width: 435px){
+	.what__title{
+		position: absolute;
+		right: 50px;
+	}
+
 	.what{
 		margin-top: 140px;
+		height: auto;
 	}
 
 	.what__block{
-		width: calc(100% - 10px);
+		width: calc(100% - 20px);
+	}
+
+	.what__circle, .what__circle__two{
+		display: none;
+	}
+
+	.what__right{
+		bottom: -150px;
+	}
+
+	.what__look{
+		bottom: -190px;
 	}
 }
