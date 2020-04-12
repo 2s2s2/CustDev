@@ -1,8 +1,9 @@
 .header{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	height: 100px;
+	padding: 0 30px;
 }
 
 .header__link{
@@ -11,11 +12,14 @@
 	margin-right: 5px;
 }
 
+.header__link.-apply {
+	display: none;
+}
+
 .header__right{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
 }
 
 .header__location{
@@ -30,64 +34,13 @@
 	display: none;
 }
 
-.header__location{
-	margin-right: 200px;
-}
-
-@media screen and (max-width: 850px){
-	i{
-		height: 2px;
-		width: 20px;
-		background-color: white;
-		position: absolute;
-		transition: transform .6s;
-	}
-
-	.header__location {
+@media screen and (max-width: 849px) {
+	.header__links {
 		display: none;
 	}
 
-	.one{
-		top: 10px;
-	}
-
-	.two{
-		top: 20px;
-		width: 15px;
-	}
-
-	.three{
-		top: 30px;
-	}
-
-	.burger{
-		position: relative;
-		width: 30px;
-		height: 30px;
-
-	}
-
-	.burger:hover .two{
-		display: none;
-	}
-
-	.burger:hover .one{
-		transform: rotate(45deg);
-		top: 20px;		
-	}
-
-	.burger:hover .three{
-		transform: rotate(-45deg);
-		top: 20px;
-	}
-
-	.header__link{
-		display: none;
-	}
-
-	.header__link.-loc.-blue{
-		display: inline-block;
-		color: white;
+	.header__link.-apply {
+		display: block;
 	}
 		
 	.triagle{
@@ -99,6 +52,16 @@
 		width: 2px;
 		height: 2px;
 		margin: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		padding: 0 15px;
+	}
+
+	.header__location {
+		display: none;
 	}
 }
 

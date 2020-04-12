@@ -3,22 +3,21 @@
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1240px) {
 	.container{
-		width: calc(100% - 15px);
-		margin: 0 auto;	
+		width: 920px;
+	}
+}
+
+
+@media screen and (max-width: 959px) {
+	.container{
+		width: 740px;
 	}	
 }
 
-@media screen and (max-width: 1023px){
-	.container{
-		width: calc(100% - 15px);
-		margin: 0 auto;	
-	}	
-}
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 767px) {
 	.container{
 		width: 100%;
-	}
+	}	
 }

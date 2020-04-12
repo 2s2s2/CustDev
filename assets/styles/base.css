@@ -22,10 +22,14 @@ body{
 	background-size: 100%;	
 }
 
-
-@media screen and (max-width: 435px){
-	body{
+@media screen and (max-width: 1049px) {
+	body {
 		background-size: 1200px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	body{
 		background-position: -453px 0; 
 	}
 }
