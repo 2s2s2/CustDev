@@ -55,7 +55,7 @@
 	font-size: 14px;	
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 849px){
 	.why__title{
 		margin-top: 600px;
 		font-size: 30px;

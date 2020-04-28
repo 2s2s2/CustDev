@@ -1,6 +1,10 @@
 .circle{
 	position: absolute;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 231px;
 	height: 231px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
@@ -11,7 +15,6 @@
 }
 
 .circle__sub{
-	margin-top: 45px;
 	font-weight: 100;
 	color: var(--blue);
 	font-size: 14px;
@@ -43,16 +46,18 @@
 	color: var(--blue);
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 849px){
 	.circle{
 		top: 250px;
 		left: 80px;
 	}
 }
 
-@media screen and (max-width: 435px){
-	.circle{
-		top: 350px;
-		left: 80px;
+@media screen and (max-width: 767px){
+	.circle {
+		position: static;
+		margin:  0 auto;
+		top: initial;
+		left: initial;
 	}
 }

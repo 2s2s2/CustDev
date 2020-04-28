@@ -5,11 +5,13 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/header.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/burger.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/hero.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/circle.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/card.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/move.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/why.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/what.css">
@@ -21,34 +23,31 @@
 <body>
 	<section class="hero">
 		<header class="header">
-				<div class="header__location">
-					<a href="" class="header__link -loc -blue">Санкт-Петербург</a>
-					<div class="triangle"></div>
-					<a href="" class="header__link -loc">Москва</a>
-					<a href="" class="header__link -loc">Мюнхен</a>
+			<div class="header__location">
+				<a href="" class="header__link -loc -blue">Санкт-Петербург</a>
+				<div class="triangle"></div>
+			</div>
+
+			<div class="header__right">
+				<div class="header__links">
+					<a href="" class="header__link">Программа</a>
+					<a href="" class="header__link">Отзывы</a>
+					<a href="" class="header__link">Стоимость</a>
+					<a href="" class="header__link">О преподавателе</a>
 				</div>
 
-				<div class="header__right">
-					<div class="header__links">
-						<a href="" class="header__link">Программа</a>
-						<a href="" class="header__link">Отзывы</a>
-						<a href="" class="header__link">Стоимость</a>
-						<a href="" class="header__link">О преподавателе</a>
-					</div>
-
-					<button class="button -class">Запись на курс</button>
-
-					<div class="burger">
-						<i class="one"></i>
-						<i class="two -s"></i>
-						<i class="three"></i>
-					</div>
+				<a href="" class="header__link -apply">Запись на курс</a>
+				<a class="button -header">Запись на курс</a>
+			</div>
+			<div class="burger">
+					<i class="one"></i>
+					<i class="two -s"></i>
+					<i class="three"></i>
 				</div>
 		</header>
 		<div class="container">
 			<div class="hero__content">
-				<div class="left"></div>
-				<div class="content">
+				<div class="hero__info">
 					<h2 class="hero__sub">Санкт-Петербург 10-21 мая</h2>
 					<h1 class="hero__title">Начни делать Customer Development и проверять гипотезы</h1>
 					<h3 class="hero__sub">На оффлайн курсе из 5 воркшопов</h3>
@@ -66,35 +65,38 @@
 	</section>
 
 	<section class="move">
-		<div class="move__title">
-			<h2 class="move__info"><b>Если вы не делаете Customer Development - вы не управляете движением к product-market fit</b></h2>
-		</div>
-		<div class="move__container">
-			<div class="move__block">
-				<h2 class="block__title">94%</h2>
-				<h4 class="block__sub">стартапов умирают в течение 3 лет, и главная причина этого — отсутствие product-market fit</h4>
+		<div class="container">
+			<div class="move__title">
+				<h2 class="move__info"><b>Если вы не делаете Customer Development - вы не управляете движением к product-market fit</b></h2>
 			</div>
+			<div class="move__container">
+				<div class="move__block">
+					<h2 class="block__title">94%</h2>
+					<h4 class="block__sub">стартапов умирают в течение 3 лет, и главная причина этого — отсутствие product-market fit</h4>
+				</div>
 
-			<div class="move__block">
-				<h2 class="block__title">менее 50%</h2>
-				<h4 class="block__sub">тестируемых Amazon функций реально запускаются после проверки гипотез</h4>
-			</div>
+				<div class="move__block">
+					<h2 class="block__title">менее 50%</h2>
+					<h4 class="block__sub">тестируемых Amazon функций реально запускаются после проверки гипотез</h4>
+				</div>
 
-			<div class="move__block">
-				<h2 class="block__title">только 50%</h2>
-				<h4 class="block__sub">компаний по результатам исследования SaaS проводят многовариантные A / B тестирования</h4>
-			</div>
+				<div class="move__block">
+					<h2 class="block__title">только 50%</h2>
+					<h4 class="block__sub">компаний по результатам исследования SaaS проводят многовариантные A / B тестирования</h4>
+				</div>
 
-			<div class="move__block">
-				<h2 class="block__title">от 40% до 90%</h2>
-				<h4 class="block__sub">новых продуктов не получают значительного признания на рынке, так как строятся на основе творчества, интуции и интеллекта</h4>
+				<div class="move__block">
+					<h2 class="block__title">от 40% до 90%</h2>
+					<h4 class="block__sub">новых продуктов не получают значительного признания на рынке, так как строятся на основе творчества, интуции и интеллекта</h4>
+				</div>	
 			</div>	
-		</div>	
+		</div>
 	</section>
 
 	<section class="why">
-		<h2 class="why__title">Кому и зачем знать Customer Development</h2>
-		<div class="why__circle"></div>
+		<div class="container">
+			<h2 class="why__title">Кому и зачем знать Customer Development</h2>
+			<div class="why__circle"></div>
 			<div class="why__blocks">
 				<div class="why__block">
 					<h3 class="why__block__title">Продуктовому дизайнеру</h3>
@@ -111,6 +113,7 @@
 					<h4 class="why__block__sub">запустить процесс проверки гипотез в котором вы быстрее и ЗНАЧИТЕЛЬНО дешевле найдёте product-market fit</h4>
 				</div>
 			</div>
+		</div>
 	</section>
 
 	<section class="what">

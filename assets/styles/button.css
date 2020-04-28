@@ -4,6 +4,9 @@
 	border-radius: 50px;
 	padding: 10px 30px;
 	color: var(--blue);
+}
+
+.button.-header {
 	margin-left: 40px;
 }
 
@@ -16,7 +19,13 @@
 	margin-top: 20px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 849px) {
+	.button.-header {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
 	.button{
 		background-color: transparent;
 		border: none;
