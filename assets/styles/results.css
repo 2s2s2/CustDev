@@ -1,0 +1,81 @@
+.results{
+	margin-top: 150px;
+	height: auto;
+	background-image: url(../img/Rectangle_blue.png);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+}
+
+.results__title{
+	margin-left: 130px;
+	padding-top: 150px;
+	color: white;
+}
+
+.results__container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.card{
+	display: flex;
+	align-items: center;
+	background-color: white;
+	width: 550px;
+	height: 250px;
+	margin-right: 80px;
+	margin-top: 50px;
+	box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
+	border-radius: 10px;
+}
+
+.card__title{
+	color: var(--blue);
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.card__sub{
+	color: #636363;
+	font-size: 16px;
+}
+
+.card__info{
+	margin-left: 25px;
+	width: 80%;
+}
+
+.card__photo{
+	margin-top: -30px;
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 1023px){
+	
+}
+
+@media screen and (max-width: 849px){
+	.card{
+		width: calc(100% - 15px);
+		margin-left: 70px;
+	}	
+
+	.results{
+		background-size: 2300px;
+		background-position: -453px -80px; 
+	}
+}
+
+@media screen and (max-width: 450px){
+	.card{
+		width: calc(100% - 5px);
+		height: 400px;
+	}
+
+	.results{
+		background-size: 3300px;
+	}
+}
