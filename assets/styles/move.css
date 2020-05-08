@@ -1,16 +1,23 @@
 .move{
 	display: flex;
-	justify-content: space-around;
+	flex-wrap: wrap;	
+	justify-content: space-between;
 	align-items: center;
 	height: 100vh;
 }
 
 .move__container{
 	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
 	width: 60%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container.-move{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .move__block{
@@ -18,7 +25,7 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	width: 333px;
+	width: 250px;
 	height: 222px;
 	background: #FFFFFF;
 	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
@@ -28,7 +35,7 @@
 }
 
 .move__title{
-	width: 30%;
+	width: 50%;
 	font-weight: bold;
 	font-size: 30px;
 }

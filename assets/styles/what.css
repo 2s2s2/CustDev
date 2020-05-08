@@ -38,7 +38,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	width: 40%;
+	width: 50%;
 }
 
 .what__left{
@@ -53,6 +53,7 @@
 	flex-direction: column;
 	width: 300px;
 	height: 250px;
+	margin-right: 50px;	
 }
 
 .what__title{
